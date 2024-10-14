@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammanda Hannifa - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FDE2E4;
+            /* Pastel Pink */
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+
+        h1,
+        h2 {
+            color: #E91E63;
+            /* Pink */
+            font-weight: 700;
+        }
+
+        /* Header Customization */
+        .bg-custom {
+            background-color: #F8BBD0;
+            /* Pastel Pink to Light Blue */
+            color: white;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: rgb(255, 195, 232) !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #E91E63 !important;
+            font-weight: bold;
+        }
+
+        .bg-custom.text-center h1 {
+            font-size: 2.8rem;
+        }
+
+        /* Custom Card Styling */
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            background-color: #FCE4EC;
+            /* Pastel Pink for card background */
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h4 {
+            color: #E91E63;
+            /* Pink for titles */
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Button and Link Styling */
+        a.nav-link {
+            font-weight: 600;
+        }
+
+        a.nav-link.active {
+            color: #E91E63 !important;
+        }
+
+        /* Main Section Styling */
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #E91E63;
+            /* Pink underline */
+            padding-bottom: 10px;
+        }
+
+        /* Contact Section Styling */
+        #contact p {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #F8BBD0;
+            /* Soft Pink */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .bg-custom.text-center h1 {
+                font-size: 2rem;
+            }
+
+            .navbar-brand {
+                font-size: 1.2rem;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-custom text-center py-5">
+        <h1>Ammanda Hannifa</h1>
+        <p>Mahasiswa Sistem Informasi | Desain Grafis & Teknologi</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#about">Tentang Saya</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sertification">Sertifikasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- About Section -->
+        <section id="about" class="mb-5 text-center">
+            <h2>Tentang Saya</h2>
+            <img src="img/foto.JPG" alt="Foto Ammanda Hannifa" class="rounded-circle mb-3" width="200">
+            <p>Mahasiswa Sistem Informasi dengan performa akademik dan interpersonal yang baik. Memiliki pengalaman
+                dibidang customer service dan pemasaran. Aktif dalam berbagai kegiatan organisasi, maupun pelatihan.
+                Mampu bekerja secara individu maupun tim, memiliki keterampilan komunikasi yang luar biasa, berkomitmen
+                untuk memberikan kontribusi signifikan dan berorientasi pada hasil dalam setiap pekerjaan yang
+                dilakukan. Siap belajar lebih dan memanfaatkan keterampilan yang saya miliki untuk berkarir dibidang
+                teknologi, komputer dan pemasaran.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-5">
+            <h2>Keahlian</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>Soft Skills</h4>
+                        <p>Komunikatif, Kolaboratif, Manajemen Waktu</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <h4>Hard Skills</h4>
+                        <p>HTML, CSS, JavaScript, Microsoft Office, Canva</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-5">
+            <h2>Pengalaman Kerja</h2>
+            <div class="card p-3">
+                <h4>Sales Promotion Girl</h4>
+                <p><strong>Mayoutfit Store Depok (2019)</strong></p>
+                <p>• Mempromosikan, mendeskripsikan suatu produk terhadap customer</p>
+                <p>• Melakukan pengecekan terhadap persediaan produk</p>
+                <p>• Melakukan penjualan, dan menjaga kepercayaan costumer</p>
+            </div>
+            <div class="card p-3">
+                <h4>Customer Service</h4>
+                <p><strong>Young Fitness Depok (2020)</strong></p>
+                <p>• Membantu costumer membuat akun baru sebagai member </p>
+                <p>• Mencatat informasi akun dalam bentuk tertulis maupun digital</p>
+                <p>• Memberikan informasi terhadap produk dan layanan kepada costumer</p>
+                <p>• Melakukan perhitungan pendapatan terhadap pemasukan penjualan atas pembuatan akun baru dan
+                    penjualan produk</p>
+            </div>
+        </section>
+
+        <!-- Sertification Section -->
+        <section id="sertification" class="mb-5">
+            <h2>Sertifikasi</h2>
+            <div class="card p-3">
+                <h4>Workshop</h4>
+                <p><strong>Membangun Website Menggunakan HTML 5 (2023)</strong></p>
+                <p>• Pengantar HTML</p>
+                <p>• Elemen-elemen HTML</p>
+                <p>• Canvas HTML</p>
+                <p>• Membuat website sederhana menggunakan HTML</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-5">
+            <h2>Pendidikan</h2>
+            <div class="card p-3">
+                <h4>Universitas Gunadarma</h4>
+                <p><strong>Sistem Informasi (2021 - Sekarang)</strong></p>
+            </div>
+            <div class="card p-3">
+                <h4>SMA Yapemri Depok</h4>
+                <p><strong>(2015 - 2018)</strong></p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-5">
+            <h2>Kontak</h2>
+            <p>Email: amandahanifa11@gmail.com</p>
+            <p>Telepon: 0897-9400-092</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ammanda Hannifa. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
