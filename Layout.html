@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        section {
+            background-color: brown;
+            color: white;
+            padding: 40px;
+        }
+
+        #showcase {
+            background-color: rgb(0, 100, 150);
+            /* Example color */
+            color: white;
+            padding: 40px;
+        }
+
+        .hero {
+            background-color: rgb(50, 100, 150);
+            /* Example color */
+            color: white;
+            padding: 40px;
+        }
+
+        .header-float {
+            padding-block: 200px;
+            padding-inline: 50px;
+            background-color: rgb(100, 100, 150);
+            /* Example color */
+        }
+
+        .sidebar-float {
+            padding-block: 200px;
+            padding-inline: 50px;
+            background-color: rgb(150, 100, 100);
+            /* Example color */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selector</h1>
+
+    <section class="hero" id="showcase">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut mauris magna. Vivamus sit amet blandit nunc.
+        Praesent dignissim dolor a lectus congue tincidunt. Nam iaculis lectus accumsan velit consectetur, eu suscipit
+        orci tempor. Fusce ullamcorper hendrerit venenatis. Duis eget finibus sem. Sed aliquam sapien ipsum, a eleifend
+        justo interdum eget. Curabitur non euismod eros, quis egestas sapien. Maecenas pharetra turpis sit amet mauris
+        venenatis eleifend.
+    </section>
+
+    <section>
+        <div class="header-float">
+            <h3>Header</h3>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+        </div>
+
+        <aside class="sidebar-float">
+            <h3>Sidebar</h3>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+        </aside>
+
+        <main>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut mauris magna. Vivamus sit amet blandit
+            nunc. Praesent dignissim dolor a lectus congue tincidunt. Nam iaculis lectus accumsan velit consectetur, eu
+            suscipit orci tempor. Fusce ullamcorper hendrerit venenatis. Duis eget finibus sem. Sed aliquam sapien
+            ipsum, a eleifend justo interdum eget. Curabitur non euismod eros, quis egestas sapien. Maecenas pharetra
+            turpis sit amet mauris venenatis eleifend.
+        </main>
+    </section>
+</body>
+
+</html>
